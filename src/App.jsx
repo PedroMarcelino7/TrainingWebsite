@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 import Points from './components/Points/Points'
 import Register from './components/Register/Register'
+import Summary from './components/Summary/Summary'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Register />
       <Details />
       <Points />
+      <Summary />
     </>
   )
 }
