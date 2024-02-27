@@ -17,8 +17,10 @@ export default function Header() {
                             and expand your knowledge
                         </p>
 
-                        <a href="#" className="btn btn-primary text-uppercase">Register</a>
-                        <a href="#" className="btn btn-outline-light text-uppercase">Discover</a>
+                        <div className="d-flex justify-content-center gap-4">
+                            <a href="#" className="btn btn-primary text-uppercase">Register</a>
+                            <a href="#" className="btn btn-outline-light text-uppercase">Discover</a>
+                        </div>
                     </div>
                 </div>
 

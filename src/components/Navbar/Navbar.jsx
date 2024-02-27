@@ -1,8 +1,22 @@
 import './Navbar.scss'
 
 import Logo from '../../images/logo.png'
+import { useEffect } from 'react';
 
 export default function Navbar() {
+    useEffect(() => {
+        const handleScroll = () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY !== 0) {
+                navbar.classList.add('bg-dark');
+            } else {
+                navbar.classList.remove('bg-dark');
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+    }, []);
+
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
             <div className="container">
