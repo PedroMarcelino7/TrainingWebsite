@@ -1,9 +1,14 @@
 import './App.scss'
+import Header from './components/Header/Header'
+import Navbar from './components/Navbar/Navbar'
+import Register from './components/Register/Register'
 
 function App() {
   return (
     <>
-      <h1>teste</h1>
+      <Navbar />
+      <Header />
+      <Register />
     </>
   )
 }
