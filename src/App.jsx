@@ -9,6 +9,7 @@ import Details2 from './components/Details2/Details2'
 import Invitation from './components/Invitation/Invitation'
 import Takeaways from './components/Takeaways/Takeaways'
 import Subscribe from './components/Subscribe/Subscribe'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Invitation />
       <Takeaways />
       <Subscribe />
+      <Footer />
     </>
   )
 }
