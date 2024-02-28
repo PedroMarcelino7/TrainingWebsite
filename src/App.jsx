@@ -7,6 +7,7 @@ import Register from './components/Register/Register'
 import Summary from './components/Summary/Summary'
 import Details2 from './components/Details2/Details2'
 import Invitation from './components/Invitation/Invitation'
+import Takeaways from './components/Takeaways/Takeaways'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Summary />
       <Details2 />
       <Invitation />
+      <Takeaways />
     </>
   )
 }
