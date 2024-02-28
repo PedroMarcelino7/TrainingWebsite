@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Points from './components/Points/Points'
 import Register from './components/Register/Register'
 import Summary from './components/Summary/Summary'
+import Details2 from './components/Details2/Details2'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Details />
       <Points />
       <Summary />
+      <Details2 />
     </>
   )
 }

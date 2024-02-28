@@ -2,7 +2,7 @@ import './Summary.scss'
 
 export default function Summary() {
     return (
-        <section id="summary" className="summary bg-light mt-5 w-75 m-auto">
+        <section id="summary" className="summary bg-light mt-0 mt-md-5 w-90 m-auto">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -16,7 +16,7 @@ export default function Summary() {
                     <div className="col-12">
                         <div className="bg-white p-5">
                             <ul className="list-unstyled">
-                                <li class="border-bottom pb-3">
+                                <li className="border-bottom pb-3">
                                     <h5>1. Comprehensive Training</h5>
                                     <p>
                                         Our courses provide comprehensive training in a wide range
@@ -25,7 +25,7 @@ export default function Summary() {
                                         all levels.
                                     </p>
                                 </li>
-                                <li class="border-bottom pb-3 pt-5">
+                                <li className="border-bottom pb-3 pt-5">
                                     <h5>2. Expert Instructors</h5>
                                     <p>
                                         Learn from industry experts who bring years of experience
@@ -33,7 +33,7 @@ export default function Summary() {
                                         about sharing their knowledge and helping you succeed.
                                     </p>
                                 </li>
-                                <li class="pb-3 pt-5">
+                                <li className="pb-3 pt-5">
                                     <h5>3. Practical Application</h5>
                                     <p>
                                         We believe in practical learning that goes beyond theory.
