@@ -8,6 +8,7 @@ import Summary from './components/Summary/Summary'
 import Details2 from './components/Details2/Details2'
 import Invitation from './components/Invitation/Invitation'
 import Takeaways from './components/Takeaways/Takeaways'
+import Subscribe from './components/Subscribe/Subscribe'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Details2 />
       <Invitation />
       <Takeaways />
+      <Subscribe />
     </>
   )
 }
